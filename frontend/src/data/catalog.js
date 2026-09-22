@@ -1,256 +1,57 @@
+export const NAV_ITEMS = [
+  { id: "01", label: "Produkty", target: "#produkty" },
+  { id: "02", label: "Příběh", target: "#pribeh" },
+  { id: "03", label: "Proces", target: "#denik" },
+  { id: "04", label: "Sady", target: "#sady" },
+  { id: "05", label: "Sklizeň", target: "#sklizen" },
+  { id: "06", label: "Kontakt", target: "#kontakt" },
+];
+
+export const MARQUEE_TEXT = "OBNOVA POŠKOZENÉ PŮDY • ČISTÉ BIO OVOCE • ŽIVÁ PŮDA • PLNÁ CHUŤ • BEZ CHEMIE • POCTIVÉ ZEMĚDĚLSTVÍ • ";
+
+const product = (id, name, displayName, latin, subtitle, description, usage, orchard, notes, soil, sceneInk = "dark") => ({
+  id, name, displayName, latin, subtitle, description, usage, orchard, notes, soil, sceneBg: "#EEEBE1", sceneInk,
+});
+
 export const CATEGORIES = [
-  {
-    id: "orchard",
-    index: "01",
-    name: "Klasické sady",
-    accent: "#9E2A2B",
-    tagline: "Prověřené druhy z rodinných výsadeb na regenerované půdě.",
-    products: [
-      {
-        id: "pomegranate",
-        name: "granátové jablko",
-        displayName: "Granátové jablko",
-        latin: "Punica granatum",
-        subtitle: "Rubínová zrna plná síly",
-        description: "Uvnitř každého plodu se ukrývají rubínová zrna, která v sobě nesou intenzivní, dokonale vyváženou chuť – spojení hluboké sladkosti a osvěžující, trpké jiskrnosti. Díky pěstování na vyprahlých řeckých terasách má naše ovoce mnohem plnější a koncentrovanější chuť než to z běžných velkovýrob.",
-        usage: "Sladce trpkavá šťáva plná semínek, prodáváme plody i lisovanou šťávu.",
-        orchard: "Sad Peloponés, Řecko",
-        notes: ["Rubínové víno", "Brusinka", "Dřevo"],
-        soil: "Kamenité terasy s hlubokým kořenovým systémem",
-        sceneBg: "#EEEBE1",
-        sceneInk: "light",
-      },
-      {
-        id: "kiwi",
-        name: "kiwi",
-        displayName: "Kiwi",
-        latin: "Actinidia deliciosa",
-        subtitle: "Kiwi z rodinných výsadeb",
-        description: "Po rozpadu sovětských zemědělských družstev zůstala v gruzínské Gurii spousta terasovitých svahů bez péče. Kiwi jsme vybrali i proto, že jde o popínavou rostlinu — její kořeny zase pomáhají půdu zpevňovat.",
-        usage: "Sladce nakyslé a šťavnaté, prodáváme výhradně čerstvé.",
-        orchard: "Sad Guria, Gruzie",
-        notes: ["Svěží jahoda", "Tráva", "Citrus"],
-        soil: "Vlhké humózní půdy s mikrobiálním životem",
-        sceneBg: "#EEEBE1",
-        sceneInk: "dark",
-      },
-      {
-        id: "avocado",
-        name: "avokádo",
-        displayName: "Avokádo",
-        latin: "Persea americana",
-        subtitle: "Krémové avokádo Hass",
-        description: "Region Petorca je bohužel známý vodní krizí způsobenou právě nadměrnou avokádovou produkcí. Chtěli jsme dokázat, že se dá pěstovat i zodpovědně, s ohledem na půdu a místní zdroje.",
-        usage: "Krémové a máslové, prodáváme výhradně čerstvé.",
-        orchard: "Sad Petorca, Chile",
-        notes: ["Lískový oříšek", "Máslo", "Čerstvé obilí"],
-        soil: "Pórovitá úrodná hlinitá půda",
-        sceneBg: "#EEEBE1",
-        sceneInk: "light",
-      },
-      {
-        id: "watermelon",
-        name: "vodní meloun",
-        displayName: "Vodní meloun",
-        latin: "Citrullus lanatus",
-        subtitle: "Sladký meloun z teplých písků",
-        description: "Divoký meloun pravděpodobně pochází přímo z pouště Kalahari, kde roste dodnes. Pěstujeme ho na okraji pouště, v pečlivě zavlažovaném pásu obnovené půdy.",
-        usage: "Šťavnatý a osvěžující, prodáváme čerstvý, sezónně.",
-        orchard: "Sad Kalahari, Namibie",
-        notes: ["Cukrová voda", "Růžové poupě", "Okurková svěžest"],
-        soil: "Písčité duny vyhřívané letním sluncem",
-        sceneBg: "#EEEBE1",
-        sceneInk: "light",
-      },
-    ],
-  },
-  {
-    id: "citrus",
-    index: "02",
-    name: "Citrusy",
-    accent: "#688F35",
-    tagline: "Esenciální oleje, ostrá svěžest a kůra bez vosků a postřiků.",
-    products: [
-      {
-        id: "lime",
-        name: "limetka",
-        displayName: "Limetka",
-        latin: "Citrus aurantiifolia",
-        subtitle: "Šťavnatá mexická limetka",
-        description: "Údolí San Joaquin patří mezi oblasti nejvíc zasažené dlouhodobým suchem v Kalifornii. Citrusové sady tu často zůstávají neobdělané, protože voda je pro velkovýrobce příliš drahá.",
-        usage: "Ostře kyselá, prodáváme čerstvou i jako sušenou kůru.",
-        orchard: "Sad San Joaquin, Kalifornie, USA",
-        notes: ["Ostrá kyselost", "Citrusový květ", "Kůra"],
-        soil: "Vápencové podloží s organickým mulčem",
-        sceneBg: "#EEEBE1",
-        sceneInk: "dark",
-      },
-      {
-        id: "lemon",
-        name: "citron",
-        displayName: "Citron",
-        latin: "Citrus limon",
-        subtitle: "Aromatický citron Eureka",
-        description: "Roste ve stejném údolí jako naše limetky — v oblasti dlouhodobě zasažené suchem, kde se citrusové sady staly pro velkovýrobce příliš nákladné na zavlažování.",
-        usage: "Intenzivně vonná kůra a kyselá šťáva, prodáváme čerstvý i sušenou kůru.",
-        orchard: "Sad San Joaquin, Kalifornie, USA",
-        notes: ["Svěží kyselost", "Eukalyptus", "Květinový tón"],
-        soil: "Regenerovaná kamenitá půda s jíchou z kopřiv",
-        sceneBg: "#EEEBE1",
-        sceneInk: "dark",
-      },
-    ],
-  },
-  {
-    id: "tropical",
-    index: "03",
-    name: "Tropické ovoce",
-    accent: "#E06A26",
-    tagline: "Ovoce z teplých obnovených oblastí — sluncem nasáklé, sklízené v plné zralosti.",
-    products: [
-      {
-        id: "mango",
-        name: "mango",
-        displayName: "Mango",
-        latin: "Mangifera indica",
-        subtitle: "Odrůda Kent z komunitních sadů",
-        description: "Mangovník potřebuje přesně to, co dnes queenslandská buš nabízí až příliš — žár a sucho. Po vlnách požárů, které tudy prošly, jsme tenhle kus země koupili a začali ho obnovovat.",
-        usage: "Sladké a šťavnaté, prodáváme čerstvé i jako sušené plátky.",
-        orchard: "Sad Kuranda, Queensland, Austrálie",
-        notes: ["Med", "Citrusová kůra", "Tropický nektar"],
-        soil: "Hluboká červená jílovitá půda s vysokým podílem humusu",
-        sceneBg: "#EEEBE1",
-        sceneInk: "dark",
-      },
-      {
-        id: "papaya",
-        name: "papája",
-        displayName: "Papája",
-        latin: "Carica papaya",
-        subtitle: "Sladká papája Formosa",
-        description: "Roste na stejném pozemku jako naše mango — queenslandské buši, která si prošla opakovanými požáry, než jsme ji začali obnovovat.",
-        usage: "Sladká, máslová dužina, prodáváme čerstvou i jako sušené plátky.",
-        orchard: "Sad Kuranda, Queensland, Austrálie",
-        notes: ["Karamel", "Meloun", "Vanilka"],
-        soil: "Vulkanický popel a regenerovaná lesní prsť",
-        sceneBg: "#EEEBE1",
-        sceneInk: "light",
-      },
-      {
-        id: "dragonfruit",
-        name: "dračí ovoce",
-        displayName: "Dračí ovoce",
-        latin: "Hylocereus undatus",
-        subtitle: "Pitahaya s jemnou dužinou",
-        description: "Popínavý kaktus dračího ovoce roste tam, kde po odlesnění zbyla jen tenká vrstva vyprahlé půdy — jeho vlastní kořeny přitom pomáhají takovou zemi znovu zpevnit.",
-        usage: "Jemně sladké a osvěžující, prodáváme výhradně čerstvé.",
-        orchard: "Sad León, Nikaragua",
-        notes: ["Kiwi", "Ostružina", "Limetková svěžest"],
-        soil: "Písčitohlinitá drenážovaná půda s biouhlem",
-        sceneBg: "#EEEBE1",
-        sceneInk: "light",
-      },
-      {
-        id: "lychee",
-        name: "liči",
-        displayName: "Liči",
-        latin: "Litchi chinensis",
-        subtitle: "Královské liči s květinovým aroma",
-        description: "Další plodina ze stejného sadu jako mango a papája — queenslandská buš, kde po požárech obnovujeme půdu už několik let.",
-        usage: "Sladká, aromatická dužina kolem pecky, prodáváme čerstvé.",
-        orchard: "Sad Kuranda, Queensland, Austrálie",
-        notes: ["Růže", "Muškátový hrozen", "Bílý čaj"],
-        soil: "Aluviální naplaveniny bohaté na minerály",
-        sceneBg: "#EEEBE1",
-        sceneInk: "dark",
-      },
-      {
-        id: "passionfruit",
-        name: "marakuja",
-        displayName: "Marakuja",
-        latin: "Passiflora edulis",
-        subtitle: "Intenzivní mučenka jedlá",
-        description: "Popínavá réva marakuji se hodí přesně na půdu, která potřebuje rychle zapojit kořeny do stabilizace svahu — a to je přesně situace, ve které jsme Sad Kuranda přebírali.",
-        usage: "Intenzivně kyselá a aromatická, skvělá čerstvá i do smoothie.",
-        orchard: "Sad Kuranda, Queensland, Austrálie",
-        notes: ["Marakuja", "Žlutý citron", "Divoký med"],
-        soil: "Mulčované terasy s krycími plodinami",
-        sceneBg: "#EEEBE1",
-        sceneInk: "dark",
-      },
-    ],
-  },
-  {
-    id: "rare",
-    index: "04",
-    name: "Vzácné a divoké",
-    accent: "#D49013",
-    tagline: "Zapomenuté plody starých kultur, pěstované v malých dávkách.",
-    products: [
-      {
-        id: "physalis",
-        name: "mochyně",
-        displayName: "Mochyně",
-        latin: "Physalis peruviana",
-        subtitle: "Incká třešeň v přírodním kalichu",
-        description: "Po vodní krizi v Kapském Městě zůstala spousta zemědělské půdy v oblasti Karoo bez využití. Mochyně patřila mezi první plodiny, které jsme na takhle vyprahlé půdě odvážně zkusili.",
-        usage: "Sladce nakyslá, nejlíp chutná sušená jako svačina.",
-        orchard: "Sad Karoo, Jižní Afrika",
-        notes: ["Ananas", "Angrešt", "Karamel"],
-        soil: "Suché obnovené stráně s lokální mykorhízou",
-        sceneBg: "#EEEBE1",
-        sceneInk: "dark",
-      },
-      {
-        id: "pawpaw",
-        name: "asimina",
-        displayName: "Asimina",
-        latin: "Asimina triloba",
-        subtitle: "Severoamerický banánovec",
-        description: "Půda v údolí Ohia byla generace vyčerpávána monokulturou kukuřice a sóji. Asimina je přitom původní severoamerické ovoce — velkovýroba ho skoro nikdy nepěstovala.",
-        usage: "Krémová dužina s nádechem banánu a manga, prodáváme jen čerstvou, špatně se skladuje.",
-        orchard: "Sad Ohio Valley, Ohio, USA",
-        notes: ["Banánový krém", "Mango", "Kokosové mléko"],
-        soil: "Hluboké lužní půdy s bohatým opadem",
-        sceneBg: "#EEEBE1",
-        sceneInk: "dark",
-      },
-    ],
-  },
+  { id: "orchard", index: "01", name: "Klasické sady", accent: "#9E2A2B", tagline: "Prověřené druhy z rodinných výsadeb na regenerované půdě.", products: [
+    product("pomegranate", "granátové jablko", "Granátové jablko", "Punica granatum", "Rubínová zrna plná síly", "Uvnitř každého plodu se ukrývají rubínová zrna, která v sobě nesou intenzivní, dokonale vyváženou chuť – spojení hluboké sladkosti a osvěžující, trpké jiskrnosti. Díky pěstování na vyprahlých řeckých terasách má naše ovoce mnohem plnější a koncentrovanější chuť než to z běžných velkovýrob.", "Sladce trpkavá šťáva plná semínek, prodáváme plody i lisovanou šťávu.", "Sad Peloponés, Řecko", ["Rubínové víno", "Brusinka", "Dřevo"], "Kamenité terasy s hlubokým kořenovým systémem", "light"),
+    product("kiwi", "kiwi", "Kiwi", "Actinidia deliciosa", "Kiwi z rodinných výsadeb", "Po rozpadu sovětských zemědělských družstev zůstala v gruzínské Gurii spousta terasovitých svahů bez péče.", "Sladce nakyslé a šťavnaté, prodáváme výhradně čerstvé.", "Sad Guria, Gruzie", ["Svěží jahoda", "Tráva", "Citrus"], "Vlhké humózní půdy s mikrobiálním životem"),
+    product("avocado", "avokádo", "Avokádo", "Persea americana", "Krémové avokádo Hass", "Neodolatelně krémová, máslová textura a jemně oříšková chuť, která se rozplyne na jazyku. Naše avokáda v sobě nesou sílu chilského slunce a jsou nabitá přirozenými, zdravými tuky. Žádná rychlovelkovýroba, ale poctivý plod, který zrál přesně tak dlouho, jak příroda potřebovala.", "Krémové a máslové, prodáváme výhradně čerstvé.", "Sad Petorca, Chile", ["Lískový oříšek", "Máslo", "Čerstvé obilí"], "Pórovitá úrodná hlinitá půda", "light"),
+    product("watermelon", "vodní meloun", "Vodní meloun", "Citrullus lanatus", "Sladký meloun z teplých písků", "Divoký meloun pravděpodobně pochází přímo z pouště Kalahari, kde roste dodnes.", "Šťavnatý a osvěžující, prodáváme čerstvý, sezónně.", "Sad Kalahari, Namibie", ["Cukrová voda", "Růžové poupě", "Okurková svěžest"], "Písčité duny vyhřívané letním sluncem", "light"),
+  ] },
+  { id: "citrus", index: "02", name: "Citrusy", accent: "#688F35", tagline: "Esenciální oleje, ostrá svěžest a kůra bez vosků a postřiků.", products: [
+    product("lime", "limetka", "Limetka", "Citrus aurantiifolia", "Šťavnatá mexická limetka", "Údolí San Joaquin patří mezi oblasti nejvíc zasažené dlouhodobým suchem v Kalifornii.", "Ostře kyselá, prodáváme čerstvou i jako sušenou kůru.", "Sad San Joaquin, Kalifornie, USA", ["Ostrá kyselost", "Citrusový květ", "Kůra"], "Vápencové podloží s organickým mulčem"),
+    product("lemon", "citron", "Citron", "Citrus limon", "Aromatický citron Eureka", "Roste ve stejném údolí jako naše limetky — v oblasti dlouhodobě zasažené suchem.", "Intenzivně vonná kůra a kyselá šťáva, prodáváme čerstvý i sušenou kůru.", "Sad San Joaquin, Kalifornie, USA", ["Svěží kyselost", "Eukalyptus", "Květinový tón"], "Regenerovaná kamenitá půda s jíchou z kopřiv"),
+  ] },
+  { id: "tropical", index: "03", name: "Tropické ovoce", accent: "#E06A26", tagline: "Ovoce z teplých obnovených oblastí — sluncem nasáklé, sklízené v plné zralosti.", products: [
+    product("mango", "mango", "Mango", "Mangifera indica", "Odrůda Kent z komunitních sadů", "Mangovník potřebuje přesně to, co dnes queenslandská buš nabízí až příliš — žár a sucho.", "Sladké a šťavnaté, prodáváme čerstvé i jako sušené plátky.", "Sad Kuranda, Queensland, Austrálie", ["Med", "Citrusová kůra", "Tropický nektar"], "Hluboká červená jílovitá půda s vysokým podílem humusu"),
+    product("papaya", "papája", "Papája", "Carica papaya", "Sladká papája Formosa", "Roste na stejném pozemku jako naše mango — queenslandské buši, která si prošla opakovanými požáry.", "Sladká, máslová dužina, prodáváme čerstvou i jako sušené plátky.", "Sad Kuranda, Queensland, Austrálie", ["Karamel", "Meloun", "Vanilka"], "Vulkanický popel a regenerovaná lesní prsť", "light"),
+    product("dragonfruit", "dračí ovoce", "Dračí ovoce", "Hylocereus undatus", "Pitahaya s jemnou dužinou", "Popínavý kaktus dračího ovoce roste tam, kde po odlesnění zbyla jen tenká vrstva vyprahlé půdy.", "Jemně sladké a osvěžující, prodáváme výhradně čerstvé.", "Sad León, Nikaragua", ["Kiwi", "Ostružina", "Limetková svěžest"], "Písčitohlinitá drenážovaná půda s biouhlem", "light"),
+    product("lychee", "liči", "Liči", "Litchi chinensis", "Královské liči s květinovým aroma", "Další plodina ze stejného sadu jako mango a papája — queenslandská buš, kde po požárech obnovujeme půdu.", "Sladká, aromatická dužina kolem pecky, prodáváme čerstvé.", "Sad Kuranda, Queensland, Austrálie", ["Růže", "Muškátový hrozen", "Bílý čaj"], "Aluviální naplaveniny bohaté na minerály"),
+    product("passionfruit", "marakuja", "Marakuja", "Passiflora edulis", "Intenzivní mučenka jedlá", "Popínavá réva marakuji pomáhá rychle zapojit kořeny do stabilizace svahu.", "Intenzivně kyselá a aromatická, skvělá čerstvá i do smoothie.", "Sad Kuranda, Queensland, Austrálie", ["Marakuja", "Žlutý citron", "Divoký med"], "Mulčované terasy s krycími plodinami"),
+  ] },
+  { id: "rare", index: "04", name: "Vzácné a divoké", accent: "#D49013", tagline: "Zapomenuté plody starých kultur, pěstované v malých dávkách.", products: [
+    product("physalis", "mochyně", "Mochyně", "Physalis peruviana", "Incká třešeň v přírodním kalichu", "Mochyně patřila mezi první plodiny, které jsme zkusili na vyprahlé půdě.", "Sladce nakyslá, nejlíp chutná sušená jako svačina.", "Sad Karoo, Jižní Afrika", ["Ananas", "Angrešt", "Karamel"], "Suché obnovené stráně s lokální mykorhízou"),
+    product("pawpaw", "asimina", "Asimina", "Asimina triloba", "Severoamerický banánovec", "Asimina je původní severoamerické ovoce, na které se během let velkovýroba téměř zapomněla.", "Krémová dužina s nádechem banánu a manga, prodáváme jen čerstvou.", "Sad Ohio Valley, Ohio, USA", ["Banánový krém", "Mango", "Kokosové mléko"], "Hluboké lužní půdy s bohatým opadem"),
+  ] },
 ];
 
-export const SCENE_ORDER = [
-  "avocado",
-  "kiwi",
-  "lime",
-  "pawpaw",
-  "lemon",
-  "passionfruit",
-  "physalis",
-  "mango",
-  "papaya",
-  "watermelon",
-  "pomegranate",
-  "dragonfruit",
-  "lychee",
-];
-
-const ALL_SCENES = CATEGORIES.flatMap((cat) =>
-  cat.products.map((p) => ({ ...p, categoryId: cat.id, categoryName: cat.name, accent: cat.accent }))
-);
-
+const SCENE_ORDER = ["avocado", "kiwi", "lime", "pawpaw", "lemon", "passionfruit", "physalis", "mango", "papaya", "watermelon", "pomegranate", "dragonfruit", "lychee"];
+const ALL_SCENES = CATEGORIES.flatMap((cat) => cat.products.map((p) => ({ ...p, categoryId: cat.id, categoryName: cat.name, accent: cat.accent })));
 export const SCENES = SCENE_ORDER.map((id) => ALL_SCENES.find((p) => p.id === id));
-
 export const sceneIndexOf = (productId) => SCENES.findIndex((s) => s.id === productId);
 export const categoryStartIndex = (categoryId) => SCENES.findIndex((s) => s.categoryId === categoryId);
 
-export const ROOTS = {
-  title: "Náš příběh",
-  lead: "Fruitivo se zrodilo z jediné touhy — přivést k nám ovoce, které tady přirozeně neroste. A udělat to poctivě.",
-  chapters: [
-    { number: "01", title: "Kde to celé začíná", text: "Nezakládáme anonymní plantáže. Jezdíme tam, kde to půda nejvíc potřebuje — do krajin, které mají za sebou zkoušku v podobě sucha, požárů nebo vyčerpání. Tyhle zničené pozemky kupujeme a dáváme jim to nejcennější: čas, péči a šanci se zase nadechnout. Sázíme na nich přesně to ovoce, které do dané oblasti odjakživa patřilo a kterému se tam přirozeně daří." },
-    { number: "02", title: "Neděláme to sami", text: "Na tohle bychom sami nestačili. Spojujeme se s místními lidmi, kteří tam žijí a starají se o zemi po generace. Oni znají každý kousek půdy, vědí, co rostliny potřebují, a rozumí jim lépe než kdokoli jiný. My jim poskytujeme zázemí a podporu, oni nám své neocenitelné know-how. Společně tak vracíme život tam, kde už pomalu vyhasínal." },
-    { number: "03", title: "Kousek jiného světa", text: "Když se oživená půda odvděčí a sady začnou rodit, přichází ta nejkrásnější část. Ovoce sklízíme v té nejlepší kondici a šetrně ho dovážíme k nám do Česka. Bez zbytečných oklik a dlouhých mezikroků. Chceme, abyste si u nás mohli vychutnat kousek jiného světa — autentický, voňavý a takový, jaký ho stvořila samotná příroda, ne laboratoř." },
-    { number: "04", title: "Kruh, který se uzavírá", text: "Tím pro nás cesta nekončí. Věříme v rovnováhu a vděčnost vůči místům, která nás hostí. Proto se část z každého prodeje vrací tam, odkud ovoce přišlo — zpět do půdy, do výsadby nových stromů a na podporu komunit, bez kterých by tenhle příběh nemohl existovat." },
-  ],
-};
+export const ROOTS = { title: "Náš příběh", lead: "Fruitivo se zrodilo z jediné touhy — přivést k nám ovoce, které tady přirozeně neroste. A udělat to poctivě.", chapters: [
+  { number: "01", title: "Kde to celé začíná", text: "Nezakládáme anonymní plantáže. Jezdíme tam, kde to půda nejvíc potřebuje — do krajin, které mají za sebou zkoušku v podobě sucha, požárů nebo vyčerpání. Tyhle zničené pozemky kupujeme a dáváme jim čas, péči a šanci se zase nadechnout." },
+  { number: "02", title: "Neděláme to sami", text: "Na tohle bychom sami nestačili. Spojujeme se s místními lidmi, kteří tam žijí a starají se o zemi po generace. Společně tak vracíme život tam, kde už pomalu vyhasínal." },
+  { number: "03", title: "Kousek jiného světa", text: "Když se oživená půda odvděčí a sady začnou rodit, ovoce sklízíme v nejlepší kondici a šetrně ho dovážíme do Česka." },
+  { number: "04", title: "Kruh, který se uzavírá", text: "Část z každého prodeje se vrací tam, odkud ovoce přišlo — zpět do půdy, do výsadby nových stromů a na podporu komunit." },
+] };
+
+export const ORCHARDS = { title: "Naše obnovené sady", subtitle: "Devět území napříč kontinenty, kterým vracíme život", locations: [] };
+export const HARVEST = { title: "Sklizeň", subtitle: "Na některých z našich pozemků se sklízí prakticky pořád.", intro: "Na některých z našich pozemků se sklízí prakticky pořád.", outro: "Sklizeň neděláme sami.", items: [] };
+export const MONTHS = ["Leden", "Únor", "Březen", "Duben", "Květen", "Červen", "Červenec", "Srpen", "Září", "Říjen", "Listopad", "Prosinec"];
+export const PROCESS = { title: "Jak to funguje", subtitle: "Od zničené země po ovoce na vašem stole", steps: [] };
+export const FOOTER = { statement: "Pěstujeme na živé zemi.", email: "fif.fruitivo@gmail.com", phone: "", address: "Fruitivo s.r.o. — Sokola Tůmy 402/12, 737 01 Český Těšín", socials: ["Instagram"], copyright: "© 2026 Fruitivo s.r.o. Všechna práva vyhrazena." };
