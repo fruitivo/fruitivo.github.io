@@ -32,7 +32,7 @@ export const CATEGORIES = [
       {
         id: "pomegranate", name: "granátové jablko", displayName: "Granátové jablko", latin: "Punica granatum",
         subtitle: "Rubínová zrna plná síly",
-        description: "Požáry roku 2021 zasáhly rozsáhlé plochy starých olivových hájů na Peloponésu. Část této spálené půdy jsme osadili granátovníky — odrůdou, která dobře snáší sucho i chudší podmínky.",
+        description: "Uvnitř každého plodu se ukrývají rubínová zrna, která v sobě nesou intenzivní, dokonale vyváženou chuť – spojení hluboké sladkosti a osvěžující, trpké jiskrnosti. Díky pěstování na vyprahlých řeckých terasách má naše ovoce mnohem plnější a koncentrovanější chuť než to z běžných velkovýrob.",
         usage: "Sladce trpkavá šťáva plná semínek, prodáváme plody i lisovanou šťávu.",
         orchard: "Sad Peloponés, Řecko",
         notes: ["Rubínové víno", "Brusinka", "Dřevo"],
@@ -42,7 +42,7 @@ export const CATEGORIES = [
       {
         id: "kiwi", name: "kiwi", displayName: "Kiwi", latin: "Actinidia deliciosa",
         subtitle: "Kiwi z rodinných výsadeb",
-        description: "Po rozpadu sovětských zemědělských družstev zůstala v gruzínské Gurii spousta terasovitých svahů bez péče. Kiwi jsme vybrali i proto, že jde o popínavou rostlinu — její kořeny pomáhají takový svah znovu zpevnit.",
+        description: "Dokonale vyvážená kombinace osvěžující kyselosti a podmanivé sladkosti, skrytá pod jemně chlupatou slupkou. Naše kiwi v sobě ukrývají obrovskou porci vitamínu C a jasně zelenou, neuvěřitelně šťavnatou dužinu plnou drobných semínek. Žádná rychlovelkovýroba, ale poctivý plod, který zrál v harmonii s čistou přírodou.",
         usage: "Sladce nakyslé a šťavnaté, prodáváme výhradně čerstvé.",
         orchard: "Sad Guria, Gruzie",
         notes: ["Světlá jahoda", "Tráva", "Citrus"],
@@ -52,7 +52,7 @@ export const CATEGORIES = [
       {
         id: "avocado", name: "avokádo", displayName: "Avokádo", latin: "Persea americana",
         subtitle: "Krémové avokádo Hass",
-        description: "Region Petorca je bohužel známý vodní krizí způsobenou právě nadměrnou avokádovou produkcí. Chtěli jsme dokázat, že se dá pěstovat i zodpovědně, s ohledem na místní vodní zdroje.",
+        description: "Neodolatelně krémová, máslová textura a jemně oříšková chuť, která se rozplyne na jazyku. Naše avokáda v sobě nesou sílu chilského slunce a jsou nabitá přirozenými, zdravými tuky. Žádná rychlovelkovýroba, ale poctivý plod, který zrál přesně tak dlouho, jak příroda potřebovala.",
         usage: "Krémové a máslové, prodáváme výhradně čerstvé.",
         orchard: "Sad Petorca, Chile",
         notes: ["Lískový oříšek", "Máslo", "Čerstvé obilí"],
@@ -81,7 +81,7 @@ export const CATEGORIES = [
       {
         id: "lime", name: "limetka", displayName: "Limetka", latin: "Citrus aurantiifolia",
         subtitle: "Šťavnatá mexická limetka",
-        description: "Údolí San Joaquin patří mezi oblasti nejvíce zasažené dlouhodobým suchem v Kalifornii. Citrusové sady tu často zůstávají neobdělány, protože voda je pro velkovýrobce příliš drahá.",
+        description: "Intenzivní, čistá kyselost s podtóny svěžích aromatických silic z kůry. Naše limetky v sobě nesou prudkou energii a neuvěřitelně šťavnatou dužinu. Žádná rychlovelkovýroba, ale poctivý plod, který dopsal svůj příběh pod horkým sluncem. Skvělé do drinků, asijské kuchyně nebo prostě všude tam, kde chcete probudit chuťové buňky.",
         usage: "Ostře kyselá, prodáváme čerstvou i jako sušenou kůru.",
         orchard: "Sad San Joaquin, Kalifornie, USA",
         notes: ["Ostrá kyselost", "Citrusový květ", "Kůra"],
