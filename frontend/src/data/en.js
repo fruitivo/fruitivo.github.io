@@ -1,6 +1,3 @@
-// Anglické překlady obsahu z catalog.js — klíče odpovídají id záznamů.
-// Čeština zůstává výchozí; chybějící překlad → zobrazí se český text (viz pick() v langContext).
-
 export const EN = {
   nav: {
     "#produkty": "Products",
@@ -45,7 +42,7 @@ export const EN = {
     pomegranate: {
       name: "pomegranate", displayName: "Pomegranate",
       subtitle: "Ruby arils full of strength",
-      description: "The fires of 2021 swept across vast areas of old olive groves in the Peloponnese. We planted part of that scorched land with pomegranate trees — a variety that tolerates drought and poor conditions well.",
+      description: "The fires of 2021 swept across vast areas of old olive groves in the Peloponnese. We planted part of that scorched land with pomegranate trees — a variety that tolerates drought well.",
       usage: "Sweetly tart juice full of seeds — we sell the fruits as well as pressed juice.",
       orchard: "Peloponnese Orchard, Greece",
       soil: "Stony terraces with a deep root system",
@@ -53,7 +50,7 @@ export const EN = {
     kiwi: {
       name: "kiwi", displayName: "Kiwi",
       subtitle: "Kiwi from family plantings",
-      description: "After the Soviet farming cooperatives collapsed, many terraced slopes in Georgia's Guria region were left untended. We chose kiwi also because it is a climbing vine — its roots help bind such a slope again.",
+      description: "After the Soviet farming cooperatives collapsed, many terraced slopes in Georgia's Guria region were left untended. We chose kiwi also because it is a climbing vine — its roots help bind and stabilise the land.",
       usage: "Sweetly tart and juicy, sold exclusively fresh.",
       orchard: "Guria Orchard, Georgia",
       soil: "Moist humus-rich soils full of microbial life",
@@ -61,7 +58,7 @@ export const EN = {
     avocado: {
       name: "avocado", displayName: "Avocado",
       subtitle: "Creamy Hass avocado",
-      description: "The Petorca region is unfortunately known for a water crisis caused precisely by excessive avocado production. We wanted to prove it can be grown responsibly, with respect for local water sources.",
+      description: "The Petorca region is unfortunately known for a water crisis caused precisely by excessive avocado production. We wanted to prove it can be grown responsibly, with respect for the land.",
       usage: "Creamy and buttery, sold exclusively fresh.",
       orchard: "Petorca Orchard, Chile",
       soil: "Porous, fertile loamy soil",
@@ -77,7 +74,7 @@ export const EN = {
     lime: {
       name: "lime", displayName: "Lime",
       subtitle: "Juicy Mexican lime",
-      description: "The San Joaquin Valley is among the areas hardest hit by long-term drought in California. Citrus orchards here are often left uncultivated, because water is too expensive for large-scale producers.",
+      description: "The San Joaquin Valley is among the areas hardest hit by long-term drought in California. Citrus orchards here are often left uncultivated, because water is too expensive for large producers to justify.",
       usage: "Sharply sour — we sell it fresh and as dried peel.",
       orchard: "San Joaquin Orchard, California, USA",
       soil: "Limestone bedrock with organic mulch",
@@ -93,7 +90,7 @@ export const EN = {
     mango: {
       name: "mango", displayName: "Mango",
       subtitle: "Kent variety from community orchards",
-      description: "The mango tree needs exactly what the Queensland bush now offers in excess — heat and drought. After the waves of fires that passed through, we bought this piece of land precisely because almost nobody wanted it.",
+      description: "The mango tree needs exactly what the Queensland bush now offers in excess — heat and drought. After the waves of fires that passed through, we bought this piece of land and began restoring it.",
       usage: "Sweet and juicy — sold fresh and as dried slices.",
       orchard: "Kuranda Orchard, Queensland, Australia",
       soil: "Deep red clay soil with a high humus content",
@@ -141,7 +138,7 @@ export const EN = {
     pawpaw: {
       name: "pawpaw", displayName: "Pawpaw",
       subtitle: "The North American pawpaw",
-      description: "The soil in the Ohio Valley was exhausted by generations of corn and soybean monoculture. Yet the pawpaw is a native American fruit — large-scale production simply almost forgot about it over the years.",
+      description: "The soil in the Ohio Valley was exhausted by generations of corn and soybean monoculture. Yet the pawpaw is a native American fruit — large-scale production simply almost failed there.",
       usage: "Creamy flesh with hints of banana and mango — sold fresh only, it stores poorly.",
       orchard: "Ohio Valley Orchard, Ohio, USA",
       soil: "Deep floodplain soils rich in leaf litter",
@@ -159,18 +156,18 @@ export const EN = {
       pelopones: { name: "Peloponnese Orchard", place: "Greece", crops: "pomegranate", text: "Old olive groves hit by the 2021 fires, restored under pomegranate trees." },
       petorca: { name: "Petorca Orchard", place: "Chile", crops: "avocado", text: "A region known for its water crisis, where soil restoration is starting to make sense economically too." },
       kalahari: { name: "Kalahari Orchard", place: "Namibia", crops: "watermelon", text: "The homeland of the wild melon — the very origin of the one on your table." },
-      guria: { name: "Guria Orchard", place: "Georgia", crops: "kiwi", text: "Terraced slopes abandoned after the collapse of Soviet farming cooperatives, today bound again by the roots of climbing kiwi." },
+      guria: { name: "Guria Orchard", place: "Georgia", crops: "kiwi", text: "Terraced slopes abandoned after the collapse of Soviet farming cooperatives, today held again by the roots of climbing kiwi." },
       ohiovalley: { name: "Ohio Valley Orchard", place: "Ohio, USA", crops: "pawpaw", text: "Soil exhausted by generations of corn and soybean monoculture — today a return to the pawpaw, a native American fruit." },
     },
   },
   roots: {
     title: "Our Story",
-    lead: "Fruitivo grew out of a single wish — to bring here fruit that doesn't grow here, and to do it honestly.",
+    lead: "Fruitivo was born from a single desire — to bring us fruit that doesn't grow here naturally. And to do it honestly.",
     chapters: [
-      { title: "Where it belongs", text: "We travel to where it belongs. To places where the sun shines almost all year, but where the land has been through hard years — drought, fires, exhausted soil. We buy these plots and give them time to breathe again." },
-      { title: "We don't do it alone", text: "We learn from the people who live there and have cared for the land forever. They know how to treat soil and plants — we help them with the restoration and the time it requires." },
-      { title: "A piece of another world", text: "Once an orchard bears fruit again, we bring the fruit home. We want people here to savour a piece of another world — as it truly is, without needless detours." },
-      { title: "Back to the land and its people", text: "And because we keep caring about these places, part of every sale goes back to where the fruit came from — to the land and to the people who help us with it." },
+      { title: "Where it all begins", text: "We don't set up anonymous plantations. We go where the soil needs it the most — to landscapes that have faced trials like drought, fires, or exhaustion. We buy these damaged plots and give them the most valuable things: time, care, and a chance to breathe again. We plant there the fruit that has always belonged to the region and naturally thrives there." },
+      { title: "We don't do it alone", text: "We couldn't do this by ourselves. We team up with local people who live there and have cared for the land for generations. They know every inch of the soil, know what the plants need, and understand them better than anyone else. We provide them with support and resources, and they give us their invaluable know-how. Together, we bring life back to places where it was slowly fading out." },
+      { title: "A piece of another world", text: "When the revitalized soil rewards us and the orchards begin to bear fruit, the most beautiful part comes. We harvest the fruit at its peak condition and gently bring it here to the Czech Republic. Without unnecessary detours and long intermediate steps. We want you to be able to enjoy a piece of another world here — authentic, fragrant, and just as nature created it, not a laboratory." },
+      { title: "The circle closes", text: "The journey doesn't end there for us. We believe in balance and gratitude toward the places that host us. That is why a portion of every sale goes back to where the fruit came from — back into the soil, planting new trees, and supporting the communities without which this story could not exist." },
     ],
   },
   process: {
