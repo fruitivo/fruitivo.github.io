@@ -128,7 +128,7 @@ export const CATEGORIES = [
         sceneBg: "#EEEBE1", sceneInk: "light",
       },
       {
-        id: "dragonfruit", name: "drakčí ovoce", displayName: "Drakčí ovoce", latin: "Hylocereus undatus",
+        id: "dragonfruit", name: "dračí ovoce", displayName: "Dračí ovoce", latin: "Hylocereus undatus",
         subtitle: "Pitahaya s jemnou dužinou",
         description: "Popínavý kaktus drakčího ovoce roste tam, kde po odlesnění zbyla jen tenká vrstva vyprahlé půdy — jeho vlastní kořeny přitom pomáhají takovou zemi znovu zpevnit.",
         usage: "Jemně sladké a osvěžující, prodáváme výhradně čerstvé.",
@@ -218,8 +218,8 @@ export const ROOTS = {
 
 export const HARVEST = {
   title: "Sklizeň",
-  subtitle: "Na některém z našich pozemků se sklízí prakticky pořád.",
-  intro: "Na některém z našich pozemků se sklízí prakticky pořád. Zatímco na Peloponésu dozrávají granátová jablka, v Queenslandu se právě sklidí mango. Sezóna nikdy úplně nekončí — jen se přesouvá po mapě.",
+  subtitle: "Na některých z našich pozemků se sklízí prakticky pořád.",
+  intro: "Na některých z našich pozemků se sklízí prakticky pořád. Zatímco na Peloponésu dozrávají granátová jablka, v Queenslandu se právě sklidí mango. Sezóna nikdy úplně nekončí — jen se přesouvá po mapě.",
   outro: "Sklizeň neděláme sami. Řídí se jí lidé, kteří na dané zemi pracují roky, často generace před námi. My jen přidáváme čas a péči, co si obnovená půda zaslouží — kdy přesně se trhá, pozná zkušenost, ne kalendář. Od utržení plodu po odjezd k vám uplyne jen pár dnů.",
   // months: 0 = leden … 11 = prosinec; sad se odvodí z údaje orchard u produktu
   items: [
@@ -258,8 +258,8 @@ export const ORCHARDS = {
       id: "leon",
       name: "Sad León",
       place: "Nikaragua",
-      crops: "drakčí ovoce",
-      text: "Půda obnovená po letech odlesňování, dnes domov drakčího ovoce.",
+      crops: "dračí ovoce",
+      text: "Půda obnovená po letech odlesňování, dnes domov dračího ovoce.",
       image: "/assets/sad-leon.jpg",
       pin: { x: 25.9, y: 43.1 },
     },
