@@ -45,7 +45,7 @@ export const EN = {
     pomegranate: {
       name: "pomegranate", displayName: "Pomegranate",
       subtitle: "Ruby arils full of strength",
-      description: "The fires of 2021 swept across vast areas of old olive groves in the Peloponnese. We planted part of that scorched land with pomegranate trees — a variety that tolerates drought and poor conditions well.",
+      description: "Inside each fruit lie ruby seeds that carry an intense, perfectly balanced flavor — a combination of deep sweetness and refreshing, tart sparkle. Thanks to being grown on arid Greek terraces, our fruit has a much fuller and more concentrated flavor than that from standard mass production.",
       usage: "Sweetly tart juice full of seeds — we sell the fruits as well as pressed juice.",
       orchard: "Peloponnese Orchard, Greece",
       soil: "Stony terraces with a deep root system",
@@ -53,7 +53,7 @@ export const EN = {
     kiwi: {
       name: "kiwi", displayName: "Kiwi",
       subtitle: "Kiwi from family plantings",
-      description: "After the Soviet farming cooperatives collapsed, many terraced slopes in Georgia's Guria region were left untended. We chose kiwi also because it is a climbing vine — its roots help bind such a slope again.",
+      description: "A perfectly balanced combination of refreshing acidity and captivating sweetness, hidden beneath a gently fuzzy skin. Our kiwis hide a massive portion of vitamin C and a vibrant green, incredibly juicy flesh full of tiny seeds. No mass-production shortcuts, just an honest fruit that ripened in harmony with pure nature.",
       usage: "Sweetly tart and juicy, sold exclusively fresh.",
       orchard: "Guria Orchard, Georgia",
       soil: "Moist humus-rich soils full of microbial life",
@@ -61,7 +61,7 @@ export const EN = {
     avocado: {
       name: "avocado", displayName: "Avocado",
       subtitle: "Creamy Hass avocado",
-      description: "The Petorca region is unfortunately known for a water crisis caused precisely by excessive avocado production. We wanted to prove it can be grown responsibly, with respect for local water sources.",
+      description: "An irresistibly creamy, buttery texture and a subtly nutty flavor that melts on your tongue. Our avocados carry the power of the Chilean sun and are rich in natural, healthy fats. No mass-production shortcuts, just an honest fruit that ripened for as long as nature intended.",
       usage: "Creamy and buttery, sold exclusively fresh.",
       orchard: "Petorca Orchard, Chile",
       soil: "Porous, fertile loamy soil",
@@ -77,7 +77,7 @@ export const EN = {
     lime: {
       name: "lime", displayName: "Lime",
       subtitle: "Juicy Mexican lime",
-      description: "The San Joaquin Valley is among the areas hardest hit by long-term drought in California. Citrus orchards here are often left uncultivated, because water is too expensive for large-scale producers.",
+      description: "Intense, pure acidity with hints of aromatic oils from the peel. Our limes carry fierce energy and incredibly juicy flesh. No mass-production shortcuts, just an honest fruit that finished its story under the hot sun. Great for drinks, cooking, or anywhere you want to wake up your taste buds.",
       usage: "Sharply sour — we sell it fresh and as dried peel.",
       orchard: "San Joaquin Orchard, California, USA",
       soil: "Limestone bedrock with organic mulch",
