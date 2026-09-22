@@ -62,7 +62,7 @@ export const CATEGORIES = [
       {
         id: "watermelon", name: "vodní meloun", displayName: "Vodní meloun", latin: "Citrullus lanatus",
         subtitle: "Sladký meloun z teplých písků",
-        description: "Divoký meloun pravděpodobně pochází přímo z pouští Kalahari, kde roste dodnes. Pěstujeme ho na okraji pouště, v pečlivě zavlažovaném pásu obnovené půdy.",
+        description: "Osvěžující, neuvěřitelně šťavnatá dužina s čistou, přirozenou sladkostí, která spolehlivě zažene žízeň. Naše melouny v sobě nesou křupavou svěžest sluncem zalitých polí. Žádná rychlovelkovýroba, ale poctivý plod plný letní energie.",
         usage: "Šťavnatý a osvěžující, prodáváme čerstvý, sezónně.",
         orchard: "Sad Kalahari, Namibie",
         notes: ["Cukrová voda", "Růžové poupě", "Okurková svěžest"],
@@ -91,7 +91,7 @@ export const CATEGORIES = [
       {
         id: "lemon", name: "citron", displayName: "Citron", latin: "Citrus limon",
         subtitle: "Aromatický citron Eureka",
-        description: "Roste ve stejném údolí jako naše limetky — v oblasti dlouhodobě zasažené suchem, kde se citrusové sady staly pro velkovýrobce příliš nákladné na zavlažování.",
+        description: "Ostrá, zářivá a povzbuzující kyselost doprovázená bohatým esenciálním aroma v silné kůře. Naše citrony v sobě nesou jiskrnou energii a maximální šťavnatost. Žádná rychlovelkovýroba, ale poctivý plod, který dozrál do dokonalé síly.",
         usage: "Intenzivně vonná kůra a kyselá šťáva, prodáváme čerstvý i sušenou kůru.",
         orchard: "Sad San Joaquin, Kalifornie, USA",
         notes: ["Svěží kyselost", "Eukalyptus", "Květinový tón"],
@@ -110,7 +110,7 @@ export const CATEGORIES = [
       {
         id: "mango", name: "mango", displayName: "Mango", latin: "Mangifera indica",
         subtitle: "Odrůda Kent z komunitních sadů",
-        description: "Mangovník potřebuje přesně to, co dnes queenslandská buš nabízí až příliš — žár a sucho. Po vlnách požárů, které tudy prošly, jsme tenhle kus země koupili právě proto, že o něj skoro nikdo nestál.",
+        description: "Bohatá, hedvábně hladká a hutná dužina s hlubokou, medovou sladkostí a tropickým aroma. Naše manga v sobě nesou sluncem prohřátou chuť dálek. Žádná rychlovelkovýroba, ale poctivý plod, který změkl v té správné harmonii.",
         usage: "Sladké a šťavnaté, prodáváme čerstvé i jako sušené plátky.",
         orchard: "Sad Kuranda, Queensland, Austrálie",
         notes: ["Med", "Citrusová kůra", "Tropický nektar"],
@@ -120,7 +120,7 @@ export const CATEGORIES = [
       {
         id: "papaya", name: "papája", displayName: "Papája", latin: "Carica papaya",
         subtitle: "Sladká papája Formosa",
-        description: "Roste na stejném pozemku jako naše mango — queenslandské buši, která si prošla opakovanými požáry, než jsme ji začali obnovovat.",
+        description: "Máslově jemná, rozplývající se dužina s lahodnou, sametovou sladkostí připomínající meloun a jemné tóny pižma. Naše papáji v sobě nesou lehkost a tropickou svěžest. Žádná rychlovelkovýroba, ale poctivý plod plný života.",
         usage: "Sladká, máslová dužina, prodáváme čerstvou i jako sušené plátky.",
         orchard: "Sad Kuranda, Queensland, Austrálie",
         notes: ["Karamel", "Meloun", "Vanilka"],
@@ -130,7 +130,7 @@ export const CATEGORIES = [
       {
         id: "dragonfruit", name: "dračí ovoce", displayName: "Dračí ovoce", latin: "Hylocereus undatus",
         subtitle: "Pitahaya s jemnou dužinou",
-        description: "Popínavý kaktus drakčího ovoce roste tam, kde po odlesnění zbyla jen tenká vrstva vyprahlé půdy — jeho vlastní kořeny přitom pomáhají takovou zemi znovu zpevnit.",
+        description: "Jemná, osvěžující a elegantní chuť s krémovou texturou posetou křupavými černými semínky, která připomíná křížence hrušky a kiwi. Naše dračí ovoce v sobě nesou tajemnou exotiku. Žádná rychlovelkovýroba, ale poctivý plod plný čisté přírodní vláhy.",
         usage: "Jemně sladké a osvěžující, prodáváme výhradně čerstvé.",
         orchard: "Sad León, Nikaragua",
         notes: ["Kiwi", "Ostružina", "Limetková svěžest"],
@@ -140,7 +140,7 @@ export const CATEGORIES = [
       {
         id: "lychee", name: "liči", displayName: "Liči", latin: "Litchi chinensis",
         subtitle: "Královské liči s květinovým aroma",
-        description: "Další plodina ze stejného sadu jako mango a papája — queenslandská buš, kde po požárech obnovujeme půdu už několik let.",
+        description: "Šťavnatá, průsvitná dužina s parfémově sladkou, květinovou chutí a osvěžujícím podtónem. Naše liči v sobě nesou jedinečnou delikatesu. Žádná rychlovelkovýroba, ale poctivý plod plný intenzivního aroma.",
         usage: "Sladká, aromatická dužina kolem pecky, prodáváme čerstvé.",
         orchard: "Sad Kuranda, Queensland, Austrálie",
         notes: ["Růže", "Muškátový hrozen", "Bílý čaj"],
@@ -150,7 +150,7 @@ export const CATEGORIES = [
       {
         id: "passionfruit", name: "marakuja", displayName: "Marakuja", latin: "Passiflora edulis",
         subtitle: "Intenzivní mučenka jedlá",
-        description: "Popínavá réva marakuji se hodí přesně na půdu, která potřebuje rychle zapojit kořeny do stabilizace svahu — a to je přesně situace, ve které jsme Sad Kuranda přebírali.",
+        description: "Intenzivní, exotická a podmanivě kyselkavá chuť ukrytá pod voňavou gelovou strukturou plnou křupavých semínek. Naše maracuji v sobě nesou explozi tropické svěžesti. Žádná rychlovelkovýroba, ale poctivý plod plný hlubokého aroma.",
         usage: "Intenzivně kyselá a aromatická, skvělá čerstvá i do smoothie.",
         orchard: "Sad Kuranda, Queensland, Austrálie",
         notes: ["Marakuja", "Žlutý citron", "Divoký med"],
@@ -169,7 +169,7 @@ export const CATEGORIES = [
       {
         id: "physalis", name: "mochyně", displayName: "Mochyně", latin: "Physalis peruviana",
         subtitle: "Incká třešně v přirozeném kalichu",
-        description: "Po vodní krizi v Kapském Městě zůstala spousta zemědělské půdy v oblasti Karoo bez využití. Mochyně patřila mezi první plodiny, které jsme na takhle vyprahlé zemi vůbec zkusili.",
+        description: "Malé zlatavé bobulky ukryté v papírovém lampionku, které překvapí jedinečnou, sladkokyselou chutí s jemným nádechem ananasu a vanilky. Naše mochyne v sobě nesou koncentrovanou sluneční sílu. Žádná rychlovelkovýroba, ale poctivý, hravý plod plný chuti.",
         usage: "Sladce nakyslá, nejlépe chutná sušená jako svačina.",
         orchard: "Sad Karoo, Jižní Afrika",
         notes: ["Ananas", "Angrešt", "Karamel"],
@@ -179,7 +179,7 @@ export const CATEGORIES = [
       {
         id: "pawpaw", name: "asimina", displayName: "Asimina", latin: "Asimina triloba",
         subtitle: "Severoamerický banánovec",
-        description: "Půda v údolí Ohia byla generace vyčerpávána monokulturou kukuřice a sóji. Asimina je přitom původní severoamerické ovoce — jen se na něj během let velkovýroby skoro zapomnělo.",
+        description: "Neuvěřitelně krémová, pudinková textura a fascinující chuťový profil, který v sobě mísí tóny zralého banánu, manga a ananasu. Naše asiminy v sobě nesou překvapivou, divokou exotiku, a přitom zrály v mírném pásu. Žádná rychlovelkovýroba, ale vzácný, poctivý plod, který voní po dáli a zrál v harmonii s regenerovanou přírodou.",
         usage: "Krémová dužina s nádechem banánu a manga, prodáváme jen čerstvou, špatně se skladuje.",
         orchard: "Sad Ohio Valley, Ohio, USA",
         notes: ["Banánový krém", "Mango", "Kokosové mléko"],
