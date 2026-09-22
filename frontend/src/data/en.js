@@ -69,7 +69,7 @@ export const EN = {
     watermelon: {
       name: "watermelon", displayName: "Watermelon",
       subtitle: "Sweet melon from warm sands",
-      description: "The wild melon most likely comes straight from the Kalahari Desert, where it still grows today. We grow it at the desert's edge, in a carefully irrigated belt of restored soil.",
+      description: "Refreshing, incredibly juicy flesh with a clean, natural sweetness that reliably quenches thirst. Our watermelons carry the crisp freshness of sun-drenched fields. No mass-production shortcuts, just an honest fruit full of summer energy.",
       usage: "Juicy and refreshing, sold fresh, seasonally.",
       orchard: "Kalahari Orchard, Namibia",
       soil: "Sandy dunes warmed by the summer sun",
@@ -85,7 +85,7 @@ export const EN = {
     lemon: {
       name: "lemon", displayName: "Lemon",
       subtitle: "Aromatic Eureka lemon",
-      description: "It grows in the same valley as our limes — in an area long affected by drought, where citrus orchards became too expensive for large producers to irrigate.",
+      description: "Sharp, bright, and invigorating acidity accompanied by a rich essential aroma in the thick peel. Our lemons carry sparkling energy and maximum juiciness. No mass-production shortcuts, just an honest fruit that ripened to its full potential.",
       usage: "Intensely fragrant peel and sour juice — sold fresh and as dried peel.",
       orchard: "San Joaquin Orchard, California, USA",
       soil: "Restored stony soil fed with nettle manure",
@@ -93,7 +93,7 @@ export const EN = {
     mango: {
       name: "mango", displayName: "Mango",
       subtitle: "Kent variety from community orchards",
-      description: "The mango tree needs exactly what the Queensland bush now offers in excess — heat and drought. After the waves of fires that passed through, we bought this piece of land precisely because almost nobody wanted it.",
+      description: "Rich, silky-smooth, and dense flesh with deep, honeyed sweetness and tropical aroma. Our mangoes carry the sun-warmed taste of distant lands. No mass-production shortcuts, just an honest fruit that softened in perfect harmony.",
       usage: "Sweet and juicy — sold fresh and as dried slices.",
       orchard: "Kuranda Orchard, Queensland, Australia",
       soil: "Deep red clay soil with a high humus content",
@@ -101,7 +101,7 @@ export const EN = {
     papaya: {
       name: "papaya", displayName: "Papaya",
       subtitle: "Sweet Formosa papaya",
-      description: "It grows on the very same plot as our mango — Queensland bush that went through repeated fires before we began restoring it.",
+      description: "Buttery soft, melting-in-your-mouth flesh with a delicious, velvet sweetness reminiscent of melon and subtle musk notes. Our papayas carry lightness and tropical freshness. No mass-production shortcuts, just an honest fruit full of life.",
       usage: "Sweet, buttery flesh — sold fresh and as dried slices.",
       orchard: "Kuranda Orchard, Queensland, Australia",
       soil: "Volcanic ash and restored forest topsoil",
@@ -109,7 +109,7 @@ export const EN = {
     dragonfruit: {
       name: "dragon fruit", displayName: "Dragon Fruit",
       subtitle: "Pitahaya with delicate flesh",
-      description: "The climbing dragon-fruit cactus grows where deforestation left only a thin layer of parched soil — and its own roots help bind such land again.",
+      description: "Mild, refreshing, and elegant flavor with a creamy texture dotted with crunchy black seeds, reminiscent of a cross between a pear and a kiwi. Our dragon fruits carry mysterious exoticism. No mass-production shortcuts, just an honest fruit full of pure natural moisture.",
       usage: "Gently sweet and refreshing, sold exclusively fresh.",
       orchard: "León Orchard, Nicaragua",
       soil: "Sandy-loam drained soil enriched with biochar",
@@ -117,7 +117,7 @@ export const EN = {
     lychee: {
       name: "lychee", displayName: "Lychee",
       subtitle: "Royal lychee with a floral aroma",
-      description: "Another crop from the same orchard as our mango and papaya — Queensland bush where we have been restoring the soil for several years since the fires.",
+      description: "Juicy, translucent flesh with a perfume-sweet, floral flavor and a refreshing undertone. Our lychees carry a unique delicacy. No mass-production shortcuts, just an honest fruit full of intense aroma.",
       usage: "Sweet, aromatic flesh around the stone — sold fresh.",
       orchard: "Kuranda Orchard, Queensland, Australia",
       soil: "Alluvial deposits rich in minerals",
@@ -125,7 +125,7 @@ export const EN = {
     passionfruit: {
       name: "passion fruit", displayName: "Passion Fruit",
       subtitle: "Intense passion fruit",
-      description: "The climbing passion-flower vine suits soil that needs to engage its roots in stabilising a slope quickly — exactly the situation in which we took over the Kuranda Orchard.",
+      description: "Intense, exotic, and captivatingly tart flavor hidden under a fragrant, gelatinous texture full of crunchy seeds. Our passion fruits carry an explosion of tropical freshness. No mass-production shortcuts, just an honest fruit full of deep aroma.",
       usage: "Intensely sour and aromatic, great fresh or in smoothies.",
       orchard: "Kuranda Orchard, Queensland, Australia",
       soil: "Mulched terraces with cover crops",
@@ -133,7 +133,7 @@ export const EN = {
     physalis: {
       name: "physalis", displayName: "Physalis",
       subtitle: "Incan cherry in a natural husk",
-      description: "After the Cape Town water crisis, much of the farmland in the Karoo area was left unused. Physalis was among the very first crops we dared to try on such parched land.",
+      description: "Small golden berries hidden inside a paper husk that surprise with a unique, sweet-and-sour taste with a subtle hint of pineapple and vanilla. Our physalis carries concentrated solar power. No mass-production shortcuts, just an honest, playful fruit full of flavor.",
       usage: "Sweet and tart — best dried as a snack.",
       orchard: "Karoo Orchard, South Africa",
       soil: "Dry restored slopes with local mycorrhiza",
@@ -141,7 +141,7 @@ export const EN = {
     pawpaw: {
       name: "pawpaw", displayName: "Pawpaw",
       subtitle: "The North American pawpaw",
-      description: "The soil in the Ohio Valley was exhausted by generations of corn and soybean monoculture. Yet the pawpaw is a native American fruit — large-scale production simply almost forgot about it over the years.",
+      description: "An incredibly creamy, custard-like texture and a fascinating flavor profile that blends notes of ripe banana, mango, and pineapple. Our asiminas carry a surprising, wild exoticism while ripening in a temperate climate. No mass-production shortcuts, just a rare, honest fruit that smells of distant lands and ripened in harmony with regenerated nature.",
       usage: "Creamy flesh with hints of banana and mango — sold fresh only, it stores poorly.",
       orchard: "Ohio Valley Orchard, Ohio, USA",
       soil: "Deep floodplain soils rich in leaf litter",
