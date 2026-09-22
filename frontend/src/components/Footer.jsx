@@ -3,6 +3,9 @@ import { FOOTER } from "../data/catalog";
 import { EN } from "../data/en";
 import { useLang, pick } from "../langContext";
 
+const CONTACT_EMAIL = "fif.fruitivo@gmail.com";
+const INSTAGRAM_URL = "https://www.instagram.com/fruitivo.fif/";
+
 export const Footer = ({ onUnlockSecret }) => {
   const [code, setCode] = useState("");
   const [sent, setSent] = useState(false);
@@ -34,12 +37,11 @@ export const Footer = ({ onUnlockSecret }) => {
             <p className="mb-4 text-[10px] uppercase tracking-[0.3em] text-stone/40">{pick(lang, "Napište nám", EN.footer.writeUs)}</p>
             <a
               data-testid="footer-email-link"
-              href={`mailto:${FOOTER.email}`}
+              href={`mailto:${CONTACT_EMAIL}`}
               className="font-serif text-xl underline-offset-4 transition-all hover:italic hover:underline sm:text-2xl"
             >
-              {FOOTER.email}
+              {CONTACT_EMAIL}
             </a>
-            <p className="mt-3 text-sm text-stone/60">{FOOTER.phone}</p>
           </div>
           <div>
             <p className="mb-4 text-[10px] uppercase tracking-[0.3em] text-stone/40">{pick(lang, "Sídlo", EN.footer.office)}</p>
@@ -47,19 +49,18 @@ export const Footer = ({ onUnlockSecret }) => {
           </div>
           <div>
             <p className="mb-4 text-[10px] uppercase tracking-[0.3em] text-stone/40">{pick(lang, "Sledujte nás", EN.footer.followUs)}</p>
-            {/* TODO(SOCIAL): doplnit reálné odkazy na sociální sítě */}
             <ul className="space-y-2">
-              {FOOTER.socials.map((s) => (
-                <li key={s}>
-                  <a
-                    data-testid={`footer-social-${s.toLowerCase()}`}
-                    href="#kontakt"
-                    className="text-sm text-stone/70 transition-all hover:italic hover:text-stone"
-                  >
-                    {s} ↗
-                  </a>
-                </li>
-              ))}
+              <li>
+                <a
+                  data-testid="footer-social-instagram"
+                  href={INSTAGRAM_URL}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-sm text-stone/70 transition-all hover:italic hover:text-stone"
+                >
+                  Instagram ↗
+                </a>
+              </li>
             </ul>
           </div>
         </div>
