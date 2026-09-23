@@ -92,13 +92,7 @@ export const SecretOverlay = ({ onDismiss }) => {
                   {...fadeUp(0.2)}
                   className="mt-12 max-w-[60ch] text-sm leading-relaxed text-sand/60 sm:text-base"
                 >
-                  {lang === "en" ? EN.secret.paragraph1 : <>Ve dne jsme sad jako každý jiný — turisté, degustace, laborantky
-                  v gumových holínkách. Ale jakmile slunce zajde, začíná směna, o které
-                  se nepíše do výroční zprávy. Hluboko pod kořeny, tam, kde končí naše
-                  oficiální mapa pozemku, mají naši nejzkušenější lidé druhé zaměstnání.
-                  Žádná fotodokumentace, žádné degustace pro veřejnost, žádné „ochutnejte
-                  a napište recenzi". Jen tichá, precizní práce a produkt, který mluví
-                  sám za sebe — pro toho, kdo ví, koho se zeptat.</>}
+                  {lang === "en" ? EN.secret.paragraph1 : <>Ve dne jsme sad jako každý jiný — slunce, závlaha, rigorózní kontroly půdy. Ale jakmile zapadne slunce, začíná druhá směna. Hluboko pod kořeny, tam, kde končí naše oficiální mapa pozemku, mají naši nejzkušenější lidé druhé zaměstnání: v našem špičkově regenerovaném mikrobiomu pěstují odrůdy, které by jinde neobstály, ale tady rozkvétají v plné síle do podoby voňavých, pryskyřičnatých květů.</>}
                   <br />
                   <br />
                   {lang === "en" ? EN.secret.paragraph2 : <>Nazýváme to diverzifikací portfolia. Účetní tomu říkají jinak, ale
