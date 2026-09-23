@@ -107,7 +107,8 @@ export const Footer = ({ onUnlockSecret }) => {
           <span>{lang === "en" ? EN.footer.copyright : FOOTER.copyright}</span>
           <span>{pick(lang, "Obnovená půda · Čisté ovoce", EN.footer.tagline)}</span>
         </div>
-        <p className="mt-3 text-center text-[11px] uppercase tracking-[0.15em] text-stone/40">
+       
+        <p className="mt-3 text-left text-[11px] uppercase tracking-[0.15em] text-stone/40">
   {lang === "en" ? EN.footer.fictionalNotice : FOOTER.fictionalNotice}
 </p>
       </div>
