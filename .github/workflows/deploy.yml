@@ -32,8 +32,9 @@ jobs:
 
       - name: Install dependencies
         working-directory: frontend
-        run: npm install --legacy-peer-deps
-              npm install --legacy-peer-deps ajv@8 ajv-keywords@5
+        run: |
+          npm install --legacy-peer-deps
+          npm install --legacy-peer-deps ajv@8 ajv-keywords@5
 
       - name: Build website
         working-directory: frontend
@@ -47,6 +48,14 @@ jobs:
         with:
           path: frontend/build
 
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
       - name: Deploy website
         id: deployment
         uses: actions/deploy-pages@v4
