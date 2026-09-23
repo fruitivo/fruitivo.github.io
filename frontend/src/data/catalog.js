@@ -374,5 +374,5 @@ export const FOOTER = {
   phone: "+420 800 567 369",
   address: "Fruitivo s.r.o. — Sokola Tůmy 402/12, 737 01 Český Těšín",
   socials: ["Instagram", "LinkedIn", "Pinterest"],
-  copyright: "© 2026 Fruitivo s.r.o. Všechna práva vyhrazena.","Fruitivo je fiktivní studentská firma a kreativní koncept.",
+  copyright: "© 2026 Fruitivo s.r.o. Všechna práva vyhrazena.",
 };
