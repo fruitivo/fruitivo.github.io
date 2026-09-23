@@ -177,12 +177,12 @@ export const EN = {
     title: "How It Works",
     subtitle: "From destroyed land to fruit on your table",
     steps: [
-      { title: "We find the plot", text: "We look for land hit by fire, drought or years of exhausting farming — in regions where the fruit we want to grow grows naturally." },
-      { title: "We buy it", text: "Precisely because it is damaged, it tends to be cheap. We buy land that big farms lost interest in." },
-      { title: "We bring back water and the microbiome", text: "First we care for the soil itself, not the plants on it — compost, cover crops and restoring the microorganisms that fire or years of drought took from the clay." },
-      { title: "We give it time", text: "Soil restoration takes years, not months. Only when the land can hold water and nutrients again does it make sense to plant anything on it." },
-      { title: "We plant resilient varieties", text: "We plant crops whose deep roots further stabilise the soil and protect it from renewed erosion." },
-      { title: "We harvest and deliver", text: "We harvest ripe fruit and deliver it fresh or gently dried, all the way to you in Czechia." },
+      { title: "We find damaged soil", text: "We look for land hit by fire, drought, or years of exhausting farming—right in regions where the given fruit has its natural home." },
+      { title: "We give it a new chance", text: "Because it is damaged and abandoned, it is uninteresting for conventional farming. We take it over and start writing its new story." },
+      { title: "We bring back water and the microbiome", text: "First, we take care of the earth itself, not the crops. Using compost, cover crops, and the restoration of microorganisms, we return to the soil what fire or drought took away." },
+      { title: "We give it time", text: "Healthy soil doesn't form in months, but years. Only when the earth is strong again, capable of holding water and nutrients, does it make sense to plant anything in it." },
+      { title: "We plant resilient varieties", text: "We plant resilient varieties whose deep roots further stabilize the earth, protect it from erosion, and help it deeply regenerate." },
+      { title: "We harvest and deliver", text: "When the fruit ripens in full strength and harmony with nature, we harvest it and gently deliver it all the way to us in the Czech Republic – fresh and honest." },
     ],
   },
   harvest: {
