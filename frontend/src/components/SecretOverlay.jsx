@@ -95,8 +95,7 @@ export const SecretOverlay = ({ onDismiss }) => {
                   {lang === "en" ? EN.secret.paragraph1 : <>Ve dne jsme sad jako každý jiný — slunce, závlaha, rigorózní kontroly půdy. Ale jakmile zapadne slunce, začíná druhá směna. Hluboko pod kořeny, tam, kde končí naše oficiální mapa pozemku, mají naši nejzkušenější lidé druhé zaměstnání: v našem špičkově regenerovaném mikrobiomu pěstují odrůdy, které by jinde neobstály, ale tady rozkvétají v plné síle do podoby voňavých, pryskyřičnatých květů.</>}
                   <br />
                   <br />
-                  {lang === "en" ? EN.secret.paragraph2 : <>Nazýváme to diverzifikací portfolia. Účetní tomu říkají jinak, ale
-                  účetní se stejně nikdy nedostanou dál než do vzorkovny.</>}
+                  {lang === "en" ? EN.secret.paragraph2 : <>Když se daří půdě, daří se všemu. Naše tajná úroda sice v běžných tabulkách chybí, ale o to poctivější péči dostává. A pokud někdy hledáte nejlepší důkaz, že naše regenerativní metody fungují opravdu do hloubky, stačí se podívat na mimořádně uvolněnou atmosféru na našich nočních poradách.</>}
                 </motion.p>
               </div>
 
