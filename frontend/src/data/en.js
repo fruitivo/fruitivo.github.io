@@ -204,6 +204,7 @@ export const EN = {
     notAvailable: "Thank you — this part of the site is not available yet.",
     tagline: "Restored soil · Pure fruit",
     copyright: "© 2026 Fruitivo s.r.o. All rights reserved.",
+    fictionalNotice: "Fruitivo is a fictional student company and creative concept.",
   },
   secret: {
     headline: "Welcome to Fruitivo.",
