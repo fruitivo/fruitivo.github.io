@@ -335,35 +335,35 @@ export const PROCESS = {
   steps: [
     {
       number: "01",
-      title: "Najdeme pozemek",
-      text: "Hledáme půdu zasaženou požárem, suchem nebo lety vyčerpávajícího hospodaření — v regionech, kde přirozeně roste ovoce, které chceme pěstovat.",
+      title: "Najdeme zničenou půdu",
+      text: "Hledáme místa zasažená požárem, suchem nebo lety vyčerpávajícího hospodaření – přesně v těch regionech, kde má dané ovoce svůj přirozený domov.",
     },
     {
       number: "02",
-      title: "Koupíme ji",
-      text: "Právě proto, že je poškozená, bývá levná. Kupujeme zemi, o kterou velké farmy přestaly stát.",
+      title: "Dáme jí novou šanci",
+      text: "Protože je poškozená a opuštěná, bývá pro běžné zemědělství nezajímavá. My ji od nich převezmeme a začínáme psát její nový příběh.",
     },
     {
       number: "03",
       title: "Vrátíme jí vodu a mikrobiom",
-      text: "Nejdřív se staráme o půdu samotnou, ne o rostliny na ní — kompost, krycí plodiny a obnova mikroorganismů, které oheň nebo roky sucha z hlíny vzaly.",
+      text: "Nejdřív se staráme o samotnou zem, ne o plodiny. Pomocí kompostu, krycích plodin a obnovy mikroorganismů vracíme do hlíny to, co z ní oheň nebo sucho vzaly.",
       core: true,
     },
     {
       number: "04",
-      title: "Necháme jí čas",
-      text: "Obnova půdy trvá roky, ne měsíce. Teprve když je země znovu schopná držet vodu a živiny, má smysl na ni něco sázet.",
+      title: "Dopřejeme jí čas",
+      text: "Zdravá půda nevzniká za měsíce, ale za roky. Teprve když je země znovu silná, schopná držet vodu a živiny, má smysl do ní cokoliv zasadit.",
       core: true,
     },
     {
       number: "05",
       title: "Vysadíme odolné odrůdy",
-      text: "Sázíme plodiny, které svými hlubokými kořeny půdu dále stabilizují a chrání před opětovnou erozí.",
+      text: "Sázíme odolné odrůdy, jejichž hluboké kořeny zemi dál stabilizují, chrání ji před erozí a pomáhají jí v hluboké regeneraci.",
     },
     {
       number: "06",
       title: "Sklidíme a dovezeme",
-      text: "Zralé ovoce sklidíme a dopravíme čerstvé nebo šetrně sušené až k vám do Česka.",
+      text: "Když ovoce dozraje v plné síle a harmonii s přírodou, sklidíme ho a šetrně dopravíme až k nám do Česka – čerstvé a poctivé.",
     },
   ],
 };
